@@ -1,0 +1,21 @@
+inventory/
+├── .env.example
+├── .gitignore
+├── package.json
+├── README.md
+├── next.config.ts
+├── tailwind.config.ts
+├── tsconfig.json
+├── postcss.config.mjs
+├── src/
+│   ├── app/
+│   │   ├── globals.css
+│   │   ├── layout.tsx
+│   │   ├── page.tsx
+│   │   └── submit/
+│   │       └── page.tsx
+│   ├── components/
+│   │   └── WalletProvider.tsx
+│   └── lib/
+│       ├── supabase.ts
+│       └── utils.ts
